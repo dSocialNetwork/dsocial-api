@@ -1,0 +1,23 @@
+{
+  "name": "dsocial-api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "start": "node --expose-gc ./server.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "dpayid": "~1.0.2",
+    "dsocialjs": "~0.1.4",
+    "expo-server-sdk": "^2.4.0",
+    "express": "^4.16.2",
+    "lightrpc": "^1.0.0-beta.4",
+    "lodash": "^4.17.5",
+    "redis": "^2.8.0",
+    "ws": "^4.0.0"
+  }
+}
